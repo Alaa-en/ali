@@ -1,0 +1,500 @@
+
+input , button
+{
+  border: none;
+  outline: none;
+    text-align: center;
+    
+}
+a
+{
+text-decoration: none;
+    color: white;
+}
+a:hover
+{
+text-decoration: none;
+    color: white;
+}
+/* logIn*/
+.logInBody
+{
+   background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("../images/truck-2407264_1920.jpg");
+   background-repeat: round;
+   background-attachment: fixed;
+   background-size: contain;
+   text-align: center;
+   height: 100%;
+}
+.logInBody .mb-3 input
+{
+   width:300px;
+   padding:17px;
+   border-radius: 10px;
+   text-align: center;
+   color: black
+}
+.btn-primary
+{
+    background-color:#0b7a6a    ;
+    border:none;   
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+.logInBody .btn-primary
+{
+   background-color:transparent;
+   border: none;
+   outline: none;
+   width: 100px;
+   border-radius: 10px;
+   margin: 15px;
+   font-weight: bold;
+   padding: 10px;   
+   border: 1px solid white;
+   cursor: pointer;
+}
+.logInBody input{
+    margin: 20px;
+    background-color:transparent;
+    color: white !important;
+    border-bottom: 2px solid white;
+    font-weight: bold;
+    font-size: 16px;
+}
+.logInBody .container
+{
+   margin: 0;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   -ms-transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%);
+}
+.logInBody .container
+{
+  background-color:rgba(11, 122, 106,0.5);
+  border-radius: 30px;
+}
+::placeholder
+{
+color:white;
+}
+/*end login page*/
+
+
+/* signUpBody*/
+.signUpBody
+{
+   background-image: url("../images/back.png");
+   background-repeat: round;
+   background-attachment: fixed;
+   background-size: cover;
+   text-align: center;
+   height: 100%;
+}
+.signUpBody .mb-3 input
+{
+   width:300px;
+   padding:13px;
+   border-radius: 10px;
+   text-align: center;
+}
+.signUpBody .btn-primary
+{
+   background-color: #0b7a6a    ;
+   border: none;
+   outline: none;
+   width: 100px;
+   border-radius: 10px;
+    margin: 10px;
+}
+.signUpBody .container
+{
+   margin: 0;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   -ms-transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%);
+}
+
+/*end signUpBody page*/
+/* navbar*/
+.navbar button
+{
+background-color: #0b7a6a    ;
+    color: white;
+    margin: 3px;
+    margin-top:-10px;
+    padding: 7px;
+    font-weight: bold;
+    border-top-left-radius:20px;
+}
+/* end navbar*/
+
+.showItem
+{
+   background-color: #0b7a6a    ;
+    position: absolute;
+        width: 100%;
+    margin-top: -20px;
+
+}
+.showItem .row
+{
+   background-color: #f5f5f5;
+    margin: 10px;
+}
+.showItem h5
+{
+background-color: #0b7a6a    ;
+    width:150px;
+    margin:10px 10px 10px 0px;
+    color: white;
+    padding: 10px;
+    border-top-right-radius: 20px; 
+    border-bottom-right-radius: 20px;
+    font-size: 18px;
+}
+.table
+{
+text-align: center;
+    margin-bottom: 20px;
+}
+
+.showItem .contain
+{
+background-color: #ffffff;
+    padding: 10px 50px;
+}
+.showItem .table thead
+{
+background-color: #0b7a6a    ;
+color: white;
+border-radius: 2px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+.showItem .table tbody tr
+{
+    margin-top: 20px;
+border-top :1px solid gray;
+    border-bottom :1px solid gray;
+}
+tbody:before {
+    content:"@";
+    display:block;
+    line-height:15px;
+    text-indent:-99999px;
+}
+.use
+{
+float: right;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.use h6
+{
+background-color: #0b7a6a    ;
+color: white;
+border-radius: 20px;
+    padding: 8px 30px;
+    text-align: center;
+    float: right;
+}
+.use textarea
+{
+text-align: right;
+    padding: 5px;
+    float: right;
+    margin-right: 30px;
+    outline: none;
+}
+
+.editbtn
+{
+    width:130px;
+background-color: #0b7a6a    ;
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+    border-radius:20px;
+    margin: auto;
+    text-align: center;
+}
+.back
+{
+padding: 10px 40px;
+}
+.back .fa-arrow-circle-left
+{
+    color: #0b7a6a    ;
+    font-size: 50px;
+    margin-top: -10px;
+}
+
+/*Add items*/
+.showItem .table input
+{
+    width:100%;
+    text-align: center;
+}
+
+.showItem .table input:hover
+{
+   border-bottom: 1px solid #0b7a6a    ;
+    border-radius: 20px;
+}
+
+/*All Items*/
+
+.showItem .rightlinks
+{
+list-style: none;
+    display: inline;
+    margin-top:-50px;
+}
+.showItem .rightlinks li
+{
+    float: right;
+    display: inline;
+    background-color: #0b7a6a    ;
+    color: white;
+    padding: 10px 20px 10px 30px;
+}
+.backEveryWhere
+{
+position: absolute;
+    bottom: 50px;
+    left: 50px;
+}
+/*Shortcomings*/
+.showItem .rightsearch
+{
+list-style: none;
+    display: inline;
+    margin-top: -50px;
+}
+.showItem .rightsearch li
+{
+    float: right;
+    display: inline;
+    color: white;
+    padding: 10px;
+}
+.showItem .rightsearch li button
+{
+       background-color: #0b7a6a    ;
+     color: white;
+}
+.showItem .rightsearch li button[type="submit"]
+{
+      padding: 8px 20px;
+      border-radius: 15px;
+}
+.showItem .rightsearch input
+{
+       padding: 7px;
+    border-radius: 15px;
+}
+.paginate .page-link
+{
+color:#0b7a6a    ;
+    border: none;
+}
+
+.paginate .page-link:hover
+{
+    border-radius: 50px;
+}
+.paginate button
+{
+    font-size: 25px;
+    color: #0b7a6a    ;
+    background: transparent;
+}
+/*expire*/
+.showItem .expire
+{
+list-style: none;
+    display: inline;
+    margin-top: -50px;
+}
+.showItem .expire li
+{
+    float: right;
+    display: inline;
+    color: white;
+    padding: 10px;
+}
+
+.showItem .expire input
+{
+       padding: 7px 20px;
+    border-radius: 15px;
+    margin-right: 20px;
+    margin-top: -20px;
+}
+.expire p
+{
+       background-color: #0b7a6a    ;
+padding:7px 30px;
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-top: -10px;
+    font-weight: bold;
+}
+.expire button
+{
+       background-color: #0b7a6a    ;
+padding:10px 30px;
+    color: white;
+    border-radius: 15px;
+    margin-left: 20px;
+    margin-top: -10px;
+        font-weight: bold;
+
+}
+.expire button .fa-search
+{
+    margin-right: 20px;
+}
+/** suppliers*/
+.showItem .suppliersearch
+{
+list-style: none;
+    display: inline;
+    margin: 0px;
+    background-color: white;
+}
+
+
+.fa-trash-alt
+{
+color: #0b7a6a    ;
+}
+table button
+{
+    background: transparent;
+}
+table .paid
+{
+background-color: #0b7a6a    ;
+color: white;
+border-radius: 15px;
+padding: 1px 10px;
+}
+  /* end models*/
+  .salesmodel-content {
+    background-color: #fefefe;
+    margin: 5% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  .salesinvoicemodel-content {
+    background-color: #fefefe;
+    margin: 5% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+.salesItems
+{
+text-align: center;
+}
+.salesItems h6
+{
+padding: 7px;
+
+}
+.form-check 
+{
+    padding: 15px;
+}
+.form-check label
+{
+    padding-left: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+label .fa-cc-visa , label .fa-money-check-alt
+{
+    font-size: 25px;
+}
+.salesinvoicemodel-content .mb-3  input
+{
+    font-size: 30px;
+    font-weight: bold;
+}
+.salesinvoicemodel-content button
+{
+    padding: 10px;
+}
+.home
+{
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("../images/truck-2407264_1920.jpg");
+    background-repeat: round;
+    background-attachment: fixed;
+    background-size: contain;
+    text-align: center;
+    height: 100%;
+}
+
+.home .home-container .col-md-3
+{
+
+    background-color: rgba(256 ,256 ,256 , .7);
+    margin: auto;
+    margin-bottom: 25px;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.home .home-container
+{
+    margin-top: 50px;
+}
+.home .home-container .col-md-3 a
+{
+    color: black;
+}
+.home .home-container .col-md-3:hover 
+{
+    background-color:#0b7a6a    ;
+}
+.home .home-container .col-md-3:hover a 
+{
+    color: white;
+}
+.roles
+{
+    text-align: right;
+}
+.roles input
+{
+
+    margin: 0px 20px 20px 30px;
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+    border: 1px dotted;
+}
+.roles label
+{
+    font-size: 14px;
+    font-weight: bold;
+   
+}
+
+.list-group a
+{
+    margin: 2px;
+    background-color: #0b7a6a    ;
+    color: white;
+}
